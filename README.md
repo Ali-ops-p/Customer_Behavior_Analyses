@@ -27,7 +27,8 @@ The dataset contains 3,900 customer transaction records with demographic, transa
 ---
 
 ## 🛠️ Tools & Technologies
-- Python (Pandas, NumPy, Matplotlib, Seaborn)
+- Python (Pandas, SQLAlchemy)
+- Jupyter Notebook
 - Microsoft SQL Server (T-SQL)
 - Power BI Desktop
 - Git & GitHub
