@@ -62,11 +62,14 @@ Key analyses included:
 ---
 
 ## 📈 Key Insights
-- Clothing generated the highest transaction volume among product categories.
-- Subscribed customers showed higher average spending compared to non-subscribed customers.
-- Repeat buyers were more likely to have active subscriptions.
-- Several products maintained high average review ratings while also achieving strong purchase frequency.
-- Discount campaigns contributed to increased purchase activity for selected products.
+- Category Performance: Clothing is the primary revenue and volume driver, consistently generating both the highest overall revenue and the largest transaction volume among all product categories.
+- Subscription Behavior: Interestingly, non-subscribed customers exhibited a slightly higher average spending pattern ($59.87) compared to subscribed customers ($59.49).
+- Customer Satisfaction: The dataset maintains a healthy overall Average Review Rating of 3.75, indicating stable baseline customer satisfaction across demographics.
+- Demographic Drivers: * For the broader customer base, Young Adults lead in both total revenue and transaction volume.
+  - Among subscribed male customers, Middle-aged users emerge as the highest revenue-generating segment.
+- Purchase Frequency: Customers with active subscriptions demonstrate a more consistent history of high-frequency purchases compared to non-subscribers.
+- Product Optimization: High-volume items within the Clothing and Footwear segments successfully maintain strong customer satisfaction, balancing high purchase frequency with above-average review ratings.
+- Promotional Impact: The application of discounts and promotional codes shows a direct positive correlation with increased transaction volumes across top product categories.
 
 ---
 
@@ -79,33 +82,29 @@ Key analyses included:
 ## 🚀 How to Run the Project
 
 ### Prerequisites
-Install the following tools:
+Ensure you have the following installed:
 - Python 3.8+
-- Jupyter Notebook
-- Microsoft SQL Server
+- Jupyter Notebook or JupyterLab
+- Microsoft SQL Server & SQL Server Management Studio (SSMS)
 - Power BI Desktop
 
-### Steps
+### Setup Instructions
 
 1. Clone the repository
+Open your terminal or command prompt, clone the repository using the git clone command for Ali-ops-p/Customer_Behavior_Analyses, and navigate into the project folder.
 
-```bash
-git clone https://github.com/Ali-ops-p/Customer_Behavior_Analyses.git
-cd Customer_Behavior_Analyses
-```
+2. Install Python Dependencies
+Install the required Python packages by running the standard pip install command for the requirements.txt file to ensure your environment is ready.
 
-2. Run the Jupyter Notebook
+3. Run the Data Analysis Notebook
+Launch Jupyter in your terminal and open the Customer_Shopping_Behavior_Analysis.ipynb file to view the data cleaning and exploration process.
 
-```bash
-jupyter notebook Customer_Shopping_Behavior_Analysis.ipynb
-```
-
-3. Import the dataset into SQL Server
+4. Import the dataset into SQL Server
 - Create a database in SSMS
 - Import the cleaned dataset
 - Execute the SQL queries
 
-4. Open the Power BI dashboard
+5. Open the Power BI dashboard
 - Launch the `.pbix` file in Power BI Desktop
 
 ---
