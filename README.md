@@ -119,3 +119,9 @@ Launch Jupyter in your terminal and open the Customer_Shopping_Behavior_Analysis
 ├── Customer Shopping Dashboard.pbix
 └── README.md
 ```
+
+## 🌟 About Me
+
+Hi there! I'm **Ali Abdul Nabi**. A passionate Master's Student in Informatics at the University of Duisburg-Essen focused on data analytics, SQL, Power BI, and Python for data analysis.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aliabdulnabii/)
